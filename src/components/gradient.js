@@ -1,10 +1,8 @@
-import React, { Componet } from 'react';
+import React, { Component } from 'react';
 
-class Gradient extends Componet {
-    render(){
-        return(
-            <div className="gradient"></div>
-        )
+class Gradient extends Component {
+    render() {
+        return <div className="gradient"></div>
     }
 }
 

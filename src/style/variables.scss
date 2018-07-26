@@ -1,5 +1,17 @@
+$color-purple: rgb(117, 67, 243);
+$color-light-blue: rgb(89, 227, 255);
+$color-blue: rgb(16, 83, 190);
+$color-gray: rgb(48, 41, 41);
+$color-subtle-gray: rgba(228, 201, 201, 0.52);
+$color-subtle-black: rgb(26, 24, 24);
 
-$color-purple: rgba(67, 126, 236);
-$color-light-blue: rgba(233, 25, 171);
-$color-light-blue: #487BCE;
-$color-grey: rgba(59, 59, 59)
+$font-alegreya: 'Alegreya';
+$font-mont: 'Montserrat';
+$font-lato: 'Lato';
+
+@mixin border-left {
+    border-left: 2px solid $color-subtle-gray;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

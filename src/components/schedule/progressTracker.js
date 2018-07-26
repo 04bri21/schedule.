@@ -1,16 +1,17 @@
-import React, { Componet } from 'react';
+import React, { Component } from 'react';
 
-class Progresstracker extends Componet {
+class ProgressTracker extends Component {
 
-    calculateProgress = function(){
+    calculateProgress = function() {
         return (this.props.amountEnrolled / this.props.amountPossible) * 100;
     }.bind(this);
-    render(){
+
+    render() {
         return (
             <div className="progress-tracker">
-                <Label className="progress-tracker__label">Progress Tracker</Label>
+                <div className="progress-tracker__title">Progress Tracker</div>
                 <div className="progress-tracker__percentage">
-                    0%
+                    {this.calculateProgress()}%
                 </div>
             </div>
         )

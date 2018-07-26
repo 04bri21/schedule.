@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import Library from './library/library';
 import Schedule from './schedule/schedule';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
-    <div className="home">
+      <div className="home">
         <Library/>
         <Schedule/>
       </div>
